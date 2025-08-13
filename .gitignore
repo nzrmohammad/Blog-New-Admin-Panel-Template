@@ -1,0 +1,35 @@
+Python
+
+*.pyc pycache/ *.pyo *.pyd .Python env/ venv/ ENV/ env.bak/ venv.bak/ *.egg-info/ dist/ build/ *.egg
+
+Django
+
+*.log .pot .pyc .sqlite3 media/ staticfiles/ migrations//init.py migrations//.pyc
+
+Virtualenv
+
+.venv/ venv/ ENV/
+
+IDEs and editors
+
+.idea/ .vscode/ *.sublime-project *.sublime-workspace
+
+OS generated files
+
+.DS_Store .DS_Store? ._* .Spotlight-V100 .Trashes ehthumbs.db Thumbs.db
+
+Testing
+
+.coverage coverage.xml *.cover *.py,cover .tox/ .nox/ htmlcov/ .pytest_cache/
+
+Package managers
+
+pip-log.txt pip-wheel-metadata/ Pipfile.lock
+
+Database
+
+*.sql *.sql.gz
+
+Other
+
+*.bak *.swp *~ *.lock
